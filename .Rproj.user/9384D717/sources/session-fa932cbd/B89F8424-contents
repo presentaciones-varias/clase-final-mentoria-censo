@@ -1,0 +1,180 @@
+---
+# title: "Capacitación en R y herramientas de productividad"
+# author: "Abril 2021"
+format:
+  revealjs:
+    auto-stretch: false
+    margin: 0
+    slide-number: true
+    scrollable: true
+    preview-links: auto
+    logo: imagenes/logo_portada2.png
+    css: ine_quarto_styles.css
+    # footer: <https://quarto.org>
+---
+
+#
+
+<!---
+# TODO: this does not work
+ .linea-superior[]
+.linea-inferior[] 
+--->
+
+<!---
+# TODO: this does not work
+ ![](imagenes/logo_portada2.png){.center style="width: 20%;"}   
+--->
+
+[]{.linea-superior} 
+[]{.linea-inferior} 
+
+<!---
+ <img src="imagenes/logo_portada2.png" style="width: 20%"/>  
+--->
+
+<img src="imagenes/logo_portada2.png" width="20%"/>  
+
+[**Penúltima sesión mentoría censo**]{.big-par .center-justified}
+
+[**Proyecto Ciencia de Datos**]{.big-par .center-justified}
+
+[**Enero 2024**]{.big-par .center-justified}
+
+
+## Objetivos de la sesión
+
+Resolver dudas respecto al trabajo realizado con el modelo de clasificación
+
+. . .
+
+Revisar recomendaciones para el etiquetado de datos
+
+. . .
+
+Revisar recomendaciones para la puesta en producción del modelo
+
+
+# Comencemos con sus dudas
+
+# Revisemos las recomendaciones
+
+
+## Etiquetado de datos
+
+
+Enfoque en la calidad
+
+. . .
+
+Priorizar calidad frente a cantidad
+
+. . .
+
+ 
+## Etiquetado de datos
+
+Ocupación (oficio y tareas) y actividad económicas conforman una unidad
+
+. . .
+
+**Recomendación**: la selección de glosas únicas debiese considerar ambas variables  
+
+. . .
+
+La edición de las glosas es una decisión que puede afectar los resultados
+
+. . .
+
+**Recomendación**: Etiquetar datos en estado bruto
+
+
+## Etiquetado de datos
+
+Los clasificadores son complejos y tienen una curva de aprendizaje
+
+. . .
+
+**Recomendación**: Descartar los códigos de las primeras semanas de trabajo y considerarlos como costo de aprendizaje
+
+. . .
+
+Monitoreo constante (diario o semanal) del desempeño de los codificadores en cuanto a cantidad y calidad
+
+. . .
+
+**Recomendación**: Solicitar a Nomenclaturas auditorías mensuales 
+
+**Recomendación**: El muestreo debería intentar que todos los codificadores estén bien representados
+
+**Recomendación**: Medir el progreso en cuanto a la coincidencia con Nomenclaturas
+
+
+. . .
+
+La retroalimentación hacia los codificadores puede tener un gran impacto
+
+. . .
+
+**Recomendación**: Generar reportes y capacitaciones mensuales, abordando los problemas detectados por Nomenclaturas  
+
+. . .
+
+
+## Etiquetado de datos
+
+No podemos alcanzar la calidad de las glosas que tiene una encuesta periódica
+
+. . .
+
+**Recomendación**: Acordar criterios con Nomenclaturas respecto a la exigencia en cuanto a suficiencia de información
+
+. . .
+
+El proceso de revisión cruzada no asegura la ausencia de casos complejos
+
+. . .
+
+**Recomendación**: Revisar glosas idénticas con distinto código
+
+**Recomendación**: Revisar algunos códigos complejos que se desprendan de las auditorías 
+
+
+
+
+## Puesta en producción 
+
+¡¡¡Estos son notas que deben ordenarse!!!
+
+
+Creación de una API para la utilización del modelo
+
+reproducibilidad
+
+Facilidad para compartir
+
+Facilidad para auditar
+
+Nosotros podemos colaborar en el empaquetado del modelo
+
+Hay que ver un ejemplo práctico
+
+
+
+#
+
+
+
+
+<img src="imagenes/logo_portada2.png" width="20%"/>  
+
+[**Penúltima sesión mentoría censo**]{.big-par .center-justified}
+
+[**Proyecto Ciencia de Datos**]{.big-par .center-justified}
+
+[**Enero 2024**]{.big-par .center-justified}
+
+
+[]{.linea-superior} 
+[]{.linea-inferior} 
+

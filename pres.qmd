@@ -139,25 +139,84 @@ El proceso de revisión cruzada no asegura la ausencia de casos complejos
 
 **Recomendación**: Revisar algunos códigos complejos que se desprendan de las auditorías 
 
+. . .
+
+
+## Entrenamiento
+
+La identificación de glosas con información insuficiente puede ser compleja
+
+. . .
+
+**Recomendación**: Monitorear de cerca evolución de predicción de código 999. Actualmente contamos con
+muy pocos datos para poder evaluarlo correctamente
+
+**Recomendación**: Algunas glosas podrían ser descartadas por heurísticas como número de carácteres. Sin embargo,
+hay que tener cuidado, pues otras glosas podrían aportar la información necesaria para clasificar.
+
+. . .
+
+Quisiéramos poder corregir glosas mal escritas
+
+**Recomendación**: en Python existen algunas librerías que permiten corregir errores ortográficos:  pyspellchecker, [Spanish spelling corrector](https://github.com/rcabg/Spanish-Spelling-Corrector), myspell, incluso GPT (a través de la API).
+
+. . .
+
+**[OJO]{.red}**: cualquier decisión de entrenamiento debe ser **siempre** contrastada contra el entrenamiento
+anterior. Solo si esta nueva decisión trae mejoras en resultados, debiese ser incorporada.
 
 
 
-## Puesta en producción 
+## Puesta en producción {.medium-par}
 
-¡¡¡Estos son notas que deben ordenarse!!!
+A la hora de poner en producción el modelo es deseable, en general, que este sea fácil de
+reproducir, compartir, auditar y ejecutar.
+
+. . .
+
+Para lograr esto, nuestra recomendación es utilizar Docker (reproducibilidad) y 
+encapsular el trabajo en una API (facilidad para compartir y ejecutar). 
+
+. . .
+
+En términos de auditabilidad, el código en su forma actual ya es fácilmente auditable y 
+el método propuesto solo encapsularía el código, sin introducir grandes dificultades.
+
+. . .
+
+Para lograr algo así, sería fundamental conseguir acceso a un **servidor** donde pudiera alojarse
+la potencial API.
+
+Para el desarrollo, las opciones son las siguientes:
+
+- Pedir ayuda a TI para que les desarrolle la infraestructura necesaria para esto.
+
+- Nuestro equipo también puede ayudarles.
+
+- Pueden estudiar cómo su equipo podría hacerlo (por ejemplo, en R con `plumber` y `renv`. Con Python preferimos `FastAPI`)
 
 
-Creación de una API para la utilización del modelo
+## Puesta en producción
 
-reproducibilidad
+**¿Qué logramos con esto?**
 
-Facilidad para compartir
+. . . 
 
-Facilidad para auditar
+Si utilizamos Docker, la aplicación correrá en cualquier computador o servidor, por lo que si es
+necesario moverla de ubicación, el costo será muy bajo. Se hace cargo de la instalación del Sistema
+Operativo, programas con Python o R, las librerías necesarias del proyecto y corre el código.
 
-Nosotros podemos colaborar en el empaquetado del modelo
+. . .
 
-Hay que ver un ejemplo práctico
+Si además creamos una API alojada en un servidor del INE, cualquier persona con acceso a este servidor podrá
+correr el modelo, sin la necesidad de tener múltiples instalaciones, ni duplicar archivos grandes (como los _embeddings_, que pesan
+más de 5GB)
+
+. . .
+
+**¿Cómo se ve en la práctica?**
+
+[Probemos una API en producción en acción!](http://10.90.2.47:3123/docs)
 
 
 

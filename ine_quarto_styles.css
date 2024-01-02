@@ -57,7 +57,7 @@ They have effect on all the elements of a particular kind which are found in the
 
 /* Set format for code blocks */
 .reveal code {
-  font-size: 15px; /* Adjust the font size as needed */
+  font-size: 22px; /* Adjust the font size as needed */
 }
 
 /* .reveal section h2 {

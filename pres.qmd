@@ -86,11 +86,9 @@ La edición de las glosas es una decisión que puede afectar los resultados
 
 . . .
 
-<<<<<<< HEAD
-**Recomendación**: etiquetar datos en estado bruto
-=======
-**Recomendación**: Etiquetar datos en estado bruto (edición debe realizarse en la etapa de entrenamiento)
->>>>>>> bd1a9de2282663c644d885589ce8fcc9499e5a6f
+
+**Recomendación**: etiquetar datos en estado bruto (edición debe realizarse en la etapa de entrenamiento)
+
 
 
 ## Etiquetado de datos

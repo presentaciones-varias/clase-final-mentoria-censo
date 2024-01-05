@@ -86,7 +86,7 @@ La edición de las glosas es una decisión que puede afectar los resultados
 
 . . .
 
-**Recomendación**: Etiquetar datos en estado bruto
+**Recomendación**: Etiquetar datos en estado bruto (edición debe realizarse en la etapa de entrenamiento)
 
 
 ## Etiquetado de datos
@@ -140,6 +140,15 @@ El proceso de revisión cruzada no asegura la ausencia de casos complejos
 **Recomendación**: Revisar algunos códigos complejos que se desprendan de las auditorías 
 
 . . .
+
+La distribución de registros y la entrega de cargas diferenciadas para cada codificador no es una tarea sencilla
+
+. . .
+
+**Recomendación**: Buscar un perfil con habilidades de programación
+
+**Recomendación**: Evitar una excesiva diferenciación en las cargas
+
 
 
 ## Entrenamiento

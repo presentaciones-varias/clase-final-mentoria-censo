@@ -450,9 +450,9 @@
 <p>Para lograr algo así, sería fundamental conseguir acceso a un <strong>servidor</strong> donde pudiera alojarse la potencial API.</p>
 <p>Para el desarrollo, las opciones son las siguientes:</p>
 <ul>
-<li><p>Pedir ayuda a TI para que les desarrolle la infraestructura necesaria para esto.</p></li>
-<li><p>Nuestro equipo también puede ayudarles.</p></li>
-<li><p>Pueden estudiar cómo su equipo podría hacerlo (por ejemplo, en R con <code>plumber</code> y <code>renv</code>. Con Python preferimos <code>FastAPI</code>)</p></li>
+<li><p>Pedir ayuda a TI para que les obtenga la infraestructura necesaria para esto (servidores, empaquetamiento).</p></li>
+<li><p>Nuestro equipo también puede ayudarles a empaquetar (desarrollo de API e infraestructura de código Docker).</p></li>
+<li><p>Pueden estudiar cómo su equipo podría hacerlo (por ejemplo, en R con <code>plumber</code>. Con Python preferimos <code>FastAPI</code>)</p></li>
 </ul>
 </div>
 </section>
@@ -468,6 +468,26 @@
 <div class="fragment">
 <p><strong>¿Cómo se ve en la práctica?</strong></p>
 <p><a href="http://10.90.2.47:3123/docs">Probemos una API en producción en acción!</a></p>
+</div>
+</section>
+<section id="puesta-en-producción-2" class="slide level2 small-par">
+<h2>Puesta en producción</h2>
+<p>Nos gustaría ver algo así con respecto a las probabilidades obtenidas por el modelo.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="fragment quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="imagenes/g1_cal_proba.png"></p>
+</div>
+<div class="fragment quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div>
+<p>En este caso podemos ver que aproximadamente el 75% de las observaciones con mayor probabilidad máxima se puede calificar con una precisión superior al 90%</p>
+<ul>
+<li class="fragment"><p>Una estrategia podría ser codificar manualmente el 25% que tiene menores probabilidades máximas (más conservadora)</p></li>
+<li class="fragment"><p>Otra decisión podría ser seleccionar una probabilidad máxima de corte tal que, en promedio, se asegure que el 90% de las observaciones vayan a ser bien codificadas por el modelo. (menos conservadora)</p></li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 </section></section>
 <section id="section-1" class="title-slide slide level1 center">

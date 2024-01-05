@@ -189,11 +189,11 @@ la potencial API.
 
 Para el desarrollo, las opciones son las siguientes:
 
-- Pedir ayuda a TI para que les desarrolle la infraestructura necesaria para esto.
+- Pedir ayuda a TI para que les obtenga la infraestructura necesaria para esto (servidores, empaquetamiento).
 
-- Nuestro equipo también puede ayudarles.
+- Nuestro equipo también puede ayudarles a empaquetar (desarrollo de API e infraestructura de código Docker).
 
-- Pueden estudiar cómo su equipo podría hacerlo (por ejemplo, en R con `plumber` y `renv`. Con Python preferimos `FastAPI`)
+- Pueden estudiar cómo su equipo podría hacerlo (por ejemplo, en R con `plumber`. Con Python preferimos `FastAPI`)
 
 
 ## Puesta en producción
@@ -218,7 +218,32 @@ más de 5GB)
 
 [Probemos una API en producción en acción!](http://10.90.2.47:3123/docs)
 
+## Puesta en producción {.small-par}
 
+Nos gustaría ver algo así con respecto a las probabilidades obtenidas por el modelo.
+
+:::: {layout-ncol=2}
+
+
+::: fragment
+![](imagenes/g1_cal_proba.png){width=10%}
+:::
+
+::: fragment
+
+::: incremental
+En este caso podemos ver que aproximadamente el 75% de las observaciones con mayor probabilidad máxima se puede calificar con una precisión superior al 90%
+
+
+- Una estrategia podría ser codificar manualmente el 25% que tiene menores probabilidades máximas (más conservadora)
+
+- Otra decisión podría ser seleccionar una probabilidad máxima de corte tal que, en promedio, se asegure que
+el 90% de las observaciones vayan a ser bien codificadas por el modelo. (menos conservadora)
+:::
+
+:::
+
+::::
 
 #
 

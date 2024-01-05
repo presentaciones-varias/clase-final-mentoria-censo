@@ -35,7 +35,7 @@ format:
 
 <img src="imagenes/logo_portada2.png" width="20%"/>  
 
-[**Penúltima sesión mentoría censo**]{.big-par .center-justified}
+[**Penúltima (8va) sesión mentoría censo**]{.big-par .center-justified}
 
 [**Proyecto Ciencia de Datos**]{.big-par .center-justified}
 
@@ -86,7 +86,7 @@ La edición de las glosas es una decisión que puede afectar los resultados
 
 . . .
 
-**Recomendación**: Etiquetar datos en estado bruto
+**Recomendación**: etiquetar datos en estado bruto
 
 
 ## Etiquetado de datos
@@ -95,7 +95,7 @@ Los clasificadores son complejos y tienen una curva de aprendizaje
 
 . . .
 
-**Recomendación**: Descartar los códigos de las primeras semanas de trabajo y considerarlos como costo de aprendizaje
+**Recomendación**: descartar los códigos de las primeras semanas de trabajo y considerarlos como costo de aprendizaje
 
 . . .
 
@@ -103,11 +103,11 @@ Monitoreo constante (diario o semanal) del desempeño de los codificadores en cu
 
 . . .
 
-**Recomendación**: Solicitar a Nomenclaturas auditorías mensuales 
+**Recomendación**: solicitar a Nomenclaturas auditorías mensuales 
 
-**Recomendación**: El muestreo debería intentar que todos los codificadores estén bien representados
+**Recomendación**: el muestreo debería intentar que todos los codificadores estén bien representados
 
-**Recomendación**: Medir el progreso en cuanto a la coincidencia con Nomenclaturas
+**Recomendación**: medir el progreso en cuanto a la coincidencia con Nomenclaturas
 
 
 . . .
@@ -116,7 +116,7 @@ La retroalimentación hacia los codificadores puede tener un gran impacto
 
 . . .
 
-**Recomendación**: Generar reportes y capacitaciones mensuales, abordando los problemas detectados por Nomenclaturas  
+**Recomendación**: generar reportes y capacitaciones mensuales, abordando los problemas detectados por Nomenclaturas  
 
 . . .
 
@@ -127,7 +127,7 @@ No podemos alcanzar la calidad de las glosas que tiene una encuesta periódica
 
 . . .
 
-**Recomendación**: Acordar criterios con Nomenclaturas respecto a la exigencia en cuanto a suficiencia de información
+**Recomendación**: acordar criterios con Nomenclaturas respecto a la exigencia en cuanto a suficiencia de información
 
 . . .
 
@@ -135,9 +135,9 @@ El proceso de revisión cruzada no asegura la ausencia de casos complejos
 
 . . .
 
-**Recomendación**: Revisar glosas idénticas con distinto código
+**Recomendación**: revisar glosas idénticas con distinto código
 
-**Recomendación**: Revisar algunos códigos complejos que se desprendan de las auditorías 
+**Recomendación**: revisar algunos códigos complejos que se desprendan de las auditorías 
 
 . . .
 
@@ -148,10 +148,10 @@ La identificación de glosas con información insuficiente puede ser compleja
 
 . . .
 
-**Recomendación**: Monitorear de cerca evolución de predicción de código 999. Actualmente contamos con
+**Recomendación**: monitorear de cerca evolución de predicción de código 999. Actualmente contamos con
 muy pocos datos para poder evaluarlo correctamente
 
-**Recomendación**: Algunas glosas podrían ser descartadas por heurísticas como número de carácteres. Sin embargo,
+**Recomendación**: algunas glosas podrían ser descartadas por heurísticas como número de carácteres. Sin embargo,
 hay que tener cuidado, pues otras glosas podrían aportar la información necesaria para clasificar.
 
 . . .
@@ -189,7 +189,7 @@ la potencial API.
 
 Para el desarrollo, las opciones son las siguientes:
 
-- Pedir ayuda a TI para que les obtenga la infraestructura necesaria para esto (servidores, empaquetamiento).
+- Pedir ayuda a TI para que les provea la infraestructura necesaria para esto (servidores, empaquetamiento).
 
 - Nuestro equipo también puede ayudarles a empaquetar (desarrollo de API e infraestructura de código Docker).
 
@@ -252,7 +252,7 @@ el 90% de las observaciones vayan a ser bien codificadas por el modelo. (menos c
 
 <img src="imagenes/logo_portada2.png" width="20%"/>  
 
-[**Penúltima sesión mentoría censo**]{.big-par .center-justified}
+[**Penúltima (8va) sesión mentoría censo**]{.big-par .center-justified}
 
 [**Proyecto Ciencia de Datos**]{.big-par .center-justified}
 
